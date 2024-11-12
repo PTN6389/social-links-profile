@@ -31,8 +31,9 @@ main {
     background-color: var(--secondary-bg-color);
     text-align: center;
     width: 330px;
-    padding: 50px 20px 20px;
+    padding: 50px 20px 10px;
     border-radius: 10px;
+    height: 70%;
 }
 
 .social-link-heading__img {
@@ -63,7 +64,8 @@ main {
 }
 
 .social-links__item {
-   list-style: none;
+    display: block;
+   text-decoration: none; 
    background-color: var(--tertiary-bg-color);
    margin: 12px 0;
    padding: 12px 0;
@@ -76,10 +78,6 @@ main {
 .social-links__item:hover {
     background-color: var(--secondary-color);
     color: var(--secondary-bg-color);   
-}
-
-a {
-    text-decoration: none;        
 }
 
 
