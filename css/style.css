@@ -1,0 +1,94 @@
+:root {
+    --primary-text-color: hsl(0, 0%, 100%);
+    --primary-bg-color: hsl(0, 0%, 8%);
+    --secondary-color: hsl(75, 94%, 57%);
+    --secondary-bg-color: hsl(0, 0%, 12%);
+    --tertiary-bg-color: hsl(0, 0%, 20%);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format(truetype);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    background-color: var(--secondary-bg-color);
+    text-align: center;
+    width: 330px;
+    padding: 50px 20px 20px;
+    border-radius: 10px;
+}
+
+.social-link-heading__img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.social-link-heading__name {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.social-link-heading__location {
+    color: var(--secondary-color);
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.social-link-heading__tagline {
+    font-size: 12px;
+}
+
+.social-links {
+    padding: 0;
+    margin: 20px 10px 10px;    
+}
+
+.social-links__item {
+   list-style: none;
+   background-color: var(--tertiary-bg-color);
+   margin: 12px 0;
+   padding: 12px 0;
+   border-radius: 5px;
+   color: var(--primary-text-color);
+   font-size: 12px;
+   font-weight: 700;
+}
+
+.social-links__item:hover {
+    background-color: var(--secondary-color);
+    color: var(--secondary-bg-color);   
+}
+
+a {
+    text-decoration: none;        
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 10px;
+}
+
+.attribution a { 
+    color: hsl(228, 50%, 68%); 
+}
