@@ -22,12 +22,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Live Site Screenshot](image.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/PTN6389/social-links-profile](https://github.com/PTN6389/social-links-profile)
+- Live Site URL: [https://ptn6389.github.io/social-links-profile/](https://ptn6389.github.io/social-links-profile/)
 
 ## My process
 
